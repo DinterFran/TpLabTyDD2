@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Yo/Desktop/franco/lab_parteA.vhd
+source_file = 1, C:/Users/Yo/Desktop/franco/Waveform.vwf
+source_file = 1, C:/Users/Yo/Desktop/franco/lab_parteA_testbench.vhd
+source_file = 1, C:/Users/Yo/Desktop/franco/Block2.bdf
+source_file = 1, C:/Users/Yo/Desktop/franco/db/lab_parteA.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = lab_parteA
+instance = comp, \LED~output\, LED~output, lab_parteA, 1
+instance = comp, \SW1~input\, SW1~input, lab_parteA, 1
+instance = comp, \SW2~input\, SW2~input, lab_parteA, 1
+instance = comp, \LED~0\, LED~0, lab_parteA, 1

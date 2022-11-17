@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Yo\Desktop\franco\simulation\modelsim
+Elab_partea
+Z1 w1668180859
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Yo\Desktop\franco\simulation\modelsim
+Z5 8C:/Users/Yo/Desktop/franco/lab_parteA.vhd
+Z6 FC:/Users/Yo/Desktop/franco/lab_parteA.vhd
+l0
+L4
+V9h3hjgBPX`1gPgAXGF0WZ0
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1668185328.068000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Yo/Desktop/franco/lab_parteA.vhd|
+Z10 !s107 C:/Users/Yo/Desktop/franco/lab_parteA.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 ^bV2:A1`WRVKRAb>OMW<H2
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 10 lab_partea 0 22 9h3hjgBPX`1gPgAXGF0WZ0
+l12
+L10
+VjUA0Ic8MI;7Z7RV55F29V2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 ?eQbM;mGZibFcG_hVlV?[0
+!i10b 1
+Elab_partea_testbench
+Z13 w1668184907
+R2
+R3
+R4
+Z14 8C:/Users/Yo/Desktop/franco/lab_parteA_testbench.vhd
+Z15 FC:/Users/Yo/Desktop/franco/lab_parteA_testbench.vhd
+l0
+L4
+V<H=k^YYcW;[0P[b<JF>lm0
+!s100 Redc03aY7HTC?lkfN[O@=0
+R7
+31
+!i10b 1
+Z16 !s108 1668185328.452000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Yo/Desktop/franco/lab_parteA_testbench.vhd|
+Z18 !s107 C:/Users/Yo/Desktop/franco/lab_parteA_testbench.vhd|
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 20 lab_partea_testbench 0 22 <H=k^YYcW;[0P[b<JF>lm0
+l19
+L7
+VhKfU>9hk:2AQX7b>MJeWH2
+!s100 4E=a5KDHTPR=EnREjN9c43
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

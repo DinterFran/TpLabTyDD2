@@ -1,0 +1,38 @@
+library IEEE;
+use ieee.std_logic_1164.ALL;
+
+entity lab_parteA_testbench is
+end lab_parteA_testbench;
+
+architecture behavior of lab_parteA_testbench is
+
+	component lab_parteA 
+	port (SW1: in std_logic;
+		   SW2: in std_logic;
+		   LED: out std_logic);
+	end component;
+	
+	signal SW1 : std_logic :='0';	
+	signal SW2 : std_logic :='0';
+	signal LED : std_logic;
+	
+begin
+	uut: lab_parteA port map (
+	
+		SW1 => SW1,
+		SW2 => SW2,
+		LED => LED
+	);
+	stin_proc:process
+	begin
+		SW1<='0'; SW2<='0'; wait for 10ns;
+		SW1<='0'; SW2<='1'; wait for 10ns;
+		SW1<='1'; SW2<='0'; wait for 10ns;
+		SW1<='1'; SW2<='1'; wait for 10ns;
+		
+		wait;
+	end process;
+END;
+	
+	
+	
