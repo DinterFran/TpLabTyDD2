@@ -1,0 +1,149 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\franc\Desktop\TpLabTyDD2\TpLabTyDD2\ParteC\simulation\modelsim
+Ed_ff
+Z1 w1668810186
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\franc\Desktop\TpLabTyDD2\TpLabTyDD2\ParteC\simulation\modelsim
+Z7 8C:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteB/ParteB.vhd
+Z8 FC:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteB/ParteB.vhd
+l0
+L6
+VXD8@^7U0]=z]1bSFV9UYA0
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1669321659.725000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteB/ParteB.vhd|
+Z12 !s107 C:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteB/ParteB.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 67C:FMIDE<JUU]gAEY6z03
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 4 d_ff 0 22 XD8@^7U0]=z]1bSFV9UYA0
+l11
+L10
+V=Te6Fh8^]hHH;id?MzzlO0
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 jUVOj40gJNa[k>R^;FBGa2
+!i10b 1
+Epartec
+Z15 w1669320831
+R4
+R5
+R6
+Z16 8C:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteC/ParteC.vhd
+Z17 FC:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteC/ParteC.vhd
+l0
+L24
+VDFDcQJPOKjD]`^kU=9dm;2
+R9
+31
+Z18 !s108 1669321659.631000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteC/ParteC.vhd|
+Z20 !s107 C:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteC/ParteC.vhd|
+R13
+R14
+!s100 emGlIe[jRQAzmnkIlHbAI0
+!i10b 1
+Abdf_type
+R4
+R5
+DEx4 work 6 partec 0 22 DFDcQJPOKjD]`^kU=9dm;2
+l98
+L48
+V<Rz7ii5khg^FRm1zdTaBS0
+R9
+31
+R18
+R19
+R20
+R13
+R14
+!s100 NA3>Ae[g>IOZ[2J@;QGbl1
+!i10b 1
+Esumador_completo
+R1
+R4
+R5
+R6
+Z21 8C:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteB/Sumador_Completo.vhd
+Z22 FC:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteB/Sumador_Completo.vhd
+l0
+L4
+V;86gWkK_C;]WNInI<@0W10
+R9
+31
+Z23 !s108 1669321659.834000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteB/Sumador_Completo.vhd|
+Z25 !s107 C:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteB/Sumador_Completo.vhd|
+R13
+R14
+!s100 kW3TWfASfWOmf2[i]_=_V3
+!i10b 1
+Abehavioral
+R4
+R5
+DEx4 work 16 sumador_completo 0 22 ;86gWkK_C;]WNInI<@0W10
+l20
+L13
+V[AO7WTON<5V@Z6=`YZfzi0
+R9
+31
+R23
+R24
+R25
+R13
+R14
+!s100 0LS>d8RNZd<zXBb=mQEHL0
+!i10b 1
+Esumador_completobloques_testbench
+Z26 w1669321481
+R4
+R5
+R6
+Z27 8C:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteC/sumador_Completobloques_testbench.vhd
+Z28 FC:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteC/sumador_Completobloques_testbench.vhd
+l0
+L4
+V8SIod5dSo@m0P;Y2>mPjJ0
+!s100 PFP6T:X<?J>Tc:K=moT]L3
+R9
+31
+!i10b 1
+Z29 !s108 1669321659.944000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteC/sumador_Completobloques_testbench.vhd|
+Z31 !s107 C:/Users/franc/Desktop/TpLabTyDD2/TpLabTyDD2/ParteC/sumador_Completobloques_testbench.vhd|
+R13
+R14
+Abehavior
+R4
+R5
+DEx4 work 33 sumador_completobloques_testbench 0 22 8SIod5dSo@m0P;Y2>mPjJ0
+l35
+L7
+VP46dO7d_[bZ=>@?G?VH[W2
+!s100 EaQQP[Z8JX1YO]bAK8GP`1
+R9
+31
+!i10b 1
+R29
+R30
+R31
+R13
+R14

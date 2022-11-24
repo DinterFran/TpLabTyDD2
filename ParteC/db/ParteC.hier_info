@@ -1,60 +1,54 @@
 |ParteC
-S0 <= D_FF:inst14.Q
-A0 => D_FF:inst5.D
-Clock => D_FF:inst5.clock
-Clock => D_FF:inst6.clock
-Clock => D_FF:inst7.clock
-Clock => Sumador_Completo:inst.clk
-Clock => D_FF:inst14.clock
-Clock => D_FF:inst8.clock
-Clock => D_FF:inst9.clock
-Clock => Sumador_Completo:inst2.clk
-Clock => D_FF:inst15.clock
-Clock => D_FF:inst10.clock
-Clock => D_FF:inst11.clock
-Clock => Sumador_Completo:inst3.clk
-Clock => D_FF:inst16.clock
-Clock => D_FF:inst12.clock
-Clock => D_FF:inst13.clock
-Clock => Sumador_Completo:inst4.clk
-Clock => D_FF:inst17.clock
-Clock => D_FF:inst18.clock
-Clock => D_FF:inst20.clock
-Clock => D_FF:inst21.clock
-Clock => D_FF:inst19.clock
-A1 => D_FF:inst6.D
-Cin => D_FF:inst7.D
-Cin => inst22.IN1
-Cin => inst23.IN1
-Cin => inst24.IN1
-Cin => inst25.IN1
-Cin => inst1.IN1
-S1 <= D_FF:inst15.Q
-A2 => D_FF:inst8.D
-A3 => D_FF:inst9.D
-A3 => inst29.IN0
-A3 => inst31.IN0
-S2 <= D_FF:inst16.Q
-B0 => inst22.IN0
-B1 => inst23.IN0
-S3 <= D_FF:inst17.Q
-B2 => inst24.IN0
-B3 => inst25.IN0
-B3 => inst29.IN1
-B3 => inst30.IN0
-C <= D_FF:inst18.Q
-N <= D_FF:inst20.Q
-V <= D_FF:inst21.Q
-Z <= D_FF:inst19.Q
+Clock => sumador_completo:b2v_inst.clk
+Clock => d_ff:b2v_inst10.clock
+Clock => d_ff:b2v_inst11.clock
+Clock => d_ff:b2v_inst12.clock
+Clock => d_ff:b2v_inst13.clock
+Clock => d_ff:b2v_inst14.clock
+Clock => d_ff:b2v_inst15.clock
+Clock => d_ff:b2v_inst16.clock
+Clock => d_ff:b2v_inst17.clock
+Clock => d_ff:b2v_inst18.clock
+Clock => d_ff:b2v_inst19.clock
+Clock => sumador_completo:b2v_inst2.clk
+Clock => d_ff:b2v_inst20.clock
+Clock => d_ff:b2v_inst21.clock
+Clock => sumador_completo:b2v_inst3.clk
+Clock => sumador_completo:b2v_inst4.clk
+Clock => d_ff:b2v_inst5.clock
+Clock => d_ff:b2v_inst6.clock
+Clock => d_ff:b2v_inst7.clock
+Clock => d_ff:b2v_inst8.clock
+Clock => d_ff:b2v_inst9.clock
+A0 => d_ff:b2v_inst5.D
+A1 => d_ff:b2v_inst6.D
+Cin => SYNTHESIZED_WIRE_12.IN1
+Cin => SYNTHESIZED_WIRE_4.IN0
+Cin => SYNTHESIZED_WIRE_5.IN0
+Cin => SYNTHESIZED_WIRE_6.IN0
+Cin => SYNTHESIZED_WIRE_7.IN0
+Cin => d_ff:b2v_inst7.D
+A2 => d_ff:b2v_inst8.D
+A3 => SYNTHESIZED_WIRE_23.IN0
+A3 => d_ff:b2v_inst9.D
+A3 => SYNTHESIZED_WIRE_24.IN0
+B0 => SYNTHESIZED_WIRE_4.IN1
+B1 => SYNTHESIZED_WIRE_5.IN1
+B2 => SYNTHESIZED_WIRE_6.IN1
+B3 => SYNTHESIZED_WIRE_7.IN1
+B3 => SYNTHESIZED_WIRE_23.IN1
+B3 => SYNTHESIZED_WIRE_24.IN1
+S0 <= d_ff:b2v_inst14.Q
+S1 <= d_ff:b2v_inst15.Q
+S2 <= d_ff:b2v_inst16.Q
+S3 <= d_ff:b2v_inst17.Q
+C <= d_ff:b2v_inst18.Q
+N <= d_ff:b2v_inst20.Q
+V <= d_ff:b2v_inst21.Q
+Z <= d_ff:b2v_inst19.Q
 
 
-|ParteC|D_FF:inst14
-D => Q~reg0.DATAIN
-clock => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ParteC|Sumador_Completo:inst
+|ParteC|Sumador_Completo:b2v_inst
 in_a => D_FF:D1.D
 in_b => D_FF:D2.D
 in_cin => D_FF:D3.D
@@ -67,61 +61,97 @@ o_f <= D_FF:D5.Q
 o_cout <= D_FF:D4.Q
 
 
-|ParteC|Sumador_Completo:inst|D_FF:D1
+|ParteC|Sumador_Completo:b2v_inst|D_FF:D1
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst|D_FF:D2
+|ParteC|Sumador_Completo:b2v_inst|D_FF:D2
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst|D_FF:D3
+|ParteC|Sumador_Completo:b2v_inst|D_FF:D3
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst|D_FF:D4
+|ParteC|Sumador_Completo:b2v_inst|D_FF:D4
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst|D_FF:D5
+|ParteC|Sumador_Completo:b2v_inst|D_FF:D5
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|D_FF:inst5
+|ParteC|D_FF:b2v_inst10
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|D_FF:inst6
+|ParteC|D_FF:b2v_inst11
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|D_FF:inst7
+|ParteC|D_FF:b2v_inst12
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|D_FF:inst15
+|ParteC|D_FF:b2v_inst13
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst2
+|ParteC|D_FF:b2v_inst14
+D => Q~reg0.DATAIN
+clock => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ParteC|D_FF:b2v_inst15
+D => Q~reg0.DATAIN
+clock => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ParteC|D_FF:b2v_inst16
+D => Q~reg0.DATAIN
+clock => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ParteC|D_FF:b2v_inst17
+D => Q~reg0.DATAIN
+clock => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ParteC|D_FF:b2v_inst18
+D => Q~reg0.DATAIN
+clock => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ParteC|D_FF:b2v_inst19
+D => Q~reg0.DATAIN
+clock => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ParteC|Sumador_Completo:b2v_inst2
 in_a => D_FF:D1.D
 in_b => D_FF:D2.D
 in_cin => D_FF:D3.D
@@ -134,55 +164,49 @@ o_f <= D_FF:D5.Q
 o_cout <= D_FF:D4.Q
 
 
-|ParteC|Sumador_Completo:inst2|D_FF:D1
+|ParteC|Sumador_Completo:b2v_inst2|D_FF:D1
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst2|D_FF:D2
+|ParteC|Sumador_Completo:b2v_inst2|D_FF:D2
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst2|D_FF:D3
+|ParteC|Sumador_Completo:b2v_inst2|D_FF:D3
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst2|D_FF:D4
+|ParteC|Sumador_Completo:b2v_inst2|D_FF:D4
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst2|D_FF:D5
+|ParteC|Sumador_Completo:b2v_inst2|D_FF:D5
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|D_FF:inst8
+|ParteC|D_FF:b2v_inst20
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|D_FF:inst9
+|ParteC|D_FF:b2v_inst21
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|D_FF:inst16
-D => Q~reg0.DATAIN
-clock => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ParteC|Sumador_Completo:inst3
+|ParteC|Sumador_Completo:b2v_inst3
 in_a => D_FF:D1.D
 in_b => D_FF:D2.D
 in_cin => D_FF:D3.D
@@ -195,55 +219,37 @@ o_f <= D_FF:D5.Q
 o_cout <= D_FF:D4.Q
 
 
-|ParteC|Sumador_Completo:inst3|D_FF:D1
+|ParteC|Sumador_Completo:b2v_inst3|D_FF:D1
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst3|D_FF:D2
+|ParteC|Sumador_Completo:b2v_inst3|D_FF:D2
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst3|D_FF:D3
+|ParteC|Sumador_Completo:b2v_inst3|D_FF:D3
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst3|D_FF:D4
+|ParteC|Sumador_Completo:b2v_inst3|D_FF:D4
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst3|D_FF:D5
+|ParteC|Sumador_Completo:b2v_inst3|D_FF:D5
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|D_FF:inst10
-D => Q~reg0.DATAIN
-clock => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ParteC|D_FF:inst11
-D => Q~reg0.DATAIN
-clock => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ParteC|D_FF:inst17
-D => Q~reg0.DATAIN
-clock => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ParteC|Sumador_Completo:inst4
+|ParteC|Sumador_Completo:b2v_inst4
 in_a => D_FF:D1.D
 in_b => D_FF:D2.D
 in_cin => D_FF:D3.D
@@ -256,67 +262,61 @@ o_f <= D_FF:D5.Q
 o_cout <= D_FF:D4.Q
 
 
-|ParteC|Sumador_Completo:inst4|D_FF:D1
+|ParteC|Sumador_Completo:b2v_inst4|D_FF:D1
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst4|D_FF:D2
+|ParteC|Sumador_Completo:b2v_inst4|D_FF:D2
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst4|D_FF:D3
+|ParteC|Sumador_Completo:b2v_inst4|D_FF:D3
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst4|D_FF:D4
+|ParteC|Sumador_Completo:b2v_inst4|D_FF:D4
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|Sumador_Completo:inst4|D_FF:D5
+|ParteC|Sumador_Completo:b2v_inst4|D_FF:D5
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|D_FF:inst12
+|ParteC|D_FF:b2v_inst5
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|D_FF:inst13
+|ParteC|D_FF:b2v_inst6
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|D_FF:inst18
+|ParteC|D_FF:b2v_inst7
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|D_FF:inst20
+|ParteC|D_FF:b2v_inst8
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ParteC|D_FF:inst21
-D => Q~reg0.DATAIN
-clock => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|ParteC|D_FF:inst19
+|ParteC|D_FF:b2v_inst9
 D => Q~reg0.DATAIN
 clock => Q~reg0.CLK
 Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE

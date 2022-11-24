@@ -6,7 +6,7 @@ end Sumador_Completobloques_testbench;
 
 architecture behavior of sumador_Completobloques_testbench is
 
-Component sumador_Completo
+Component ParteC
 		port(	
 			Clock,A0,A1,A2,A3,B0,B1,B2,B3,Cin: in std_logic;
 			S0,S1,S2,S3,C,Z,N,V : out std_logic
@@ -20,7 +20,8 @@ Component sumador_Completo
 		signal B1 : std_logic :='0';
 		signal B2 : std_logic :='0';
 		signal B3 : std_logic :='0';
-		signal Cin : std_logic :='0';		
+		signal Cin : std_logic :='0';	
+	   signal Clock : std_logic :='0';	
 		signal S0: std_logic ;
 		signal S1: std_logic ;
 		signal S2: std_logic ;
@@ -32,7 +33,7 @@ Component sumador_Completo
 		
 	constant clock_period : time := 20 ns;
 begin	
-	uut: sumador_Completobloques_testbench port map(
+	uut: ParteC port map(
 		
 			A0 => A0,
 			A1 => A1,
@@ -47,6 +48,7 @@ begin
 			S2 => S2,
 			S3 => S3,
 			C => C,
+			Clock => Clock,
 			Z => Z,
 			N => N,
 			V => V,
@@ -56,9 +58,9 @@ clock_process: process
 	
 	begin 
 	
-		clk<='0';
+		clock<='0';
 		wait for clock_period/2;
-		clk<='1';
+		clock<='1';
 		wait for clock_period/2;
 	end process;
 
